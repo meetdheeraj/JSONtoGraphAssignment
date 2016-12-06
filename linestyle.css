@@ -1,0 +1,22 @@
+   body {
+       font: 15px sans-serif;
+       background: pink;
+
+     }
+
+     .line {
+         
+         stroke-width: 2px;
+     }
+     path {
+       
+       stroke-width: 2;
+       fill: none;
+     }
+
+     .axis path,
+     .axis line {
+       fill: none;
+       stroke: grey;  /*x and y axis line*/
+       stroke-width: 1.5;
+       }
